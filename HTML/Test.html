@@ -1,0 +1,119 @@
+<html>
+
+<head>
+    <title>ECommerce Home</title>
+    <link rel="stylesheet" href="../CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="../CSS/Test.css">
+</head>
+
+<body>
+    <div class="container parentDiv">
+        <div class="row">
+            <div class="col-lg-7 childDiv">
+                <div class="row">
+                    <div class="col-lg-11 childdHeadingDiv">
+                        <h1 class="display-4 headingText">CRAP BAG</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-11 childdDiv">
+                        <div>
+                            <p class="text-left subHeadingText">CAT SPIT BALL OF HAIRS</p>
+                            <div class="button">
+                                <p class="qtyText">QTY: <span id="qty1"></span></p>
+                                <button class="btn btn-primary" id="addbutton1" onclick="add(1);">ADD</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-11 childdDiv">
+                        <div>
+                            <p class="text-left subHeadingText">MIX CD OF BAD SONGS</p>
+                            <div class="button">
+                                <p class="qtyText">QTY: <span id="qty2"></span></p>
+                                <button class="btn btn-primary" id="addbutton2" onclick="add(2)">ADD</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-11 childdDiv">
+                        <div>
+                            <p class="text-left subHeadingText">CHEWED Chicken Songs</p>
+                            <div class="button">
+                                <p class="qtyText">QTY: <span id="qty3"></span></p>
+                                <button class="btn btn-primary" id="addbutton3" onclick="add(3)">ADD</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-11 childdDiv">
+                        <div>
+                            <p class="text-left subHeadingText">FAke One Ruppee Note</p>
+                            <div class="button">
+                                <p class="qtyText">QTY: <span id="qty4"></span></p>
+                                <button class="btn btn-primary" id="addbutton4" onclick="add(4)">ADD</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-11 childdDiv">
+                        <div>
+                            <p class="text-left subHeadingText">Salman Khan Movies DVD</p>
+                            <div class="button">
+                                <p class="qtyText">QTY: <span id="qty5"></span></p>
+                                <button class="btn btn-primary" id="addbutton5" onclick="add(5)">ADD</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-1 childDiv">
+            </div>
+            <div class="col-lg-4">
+                <div class="crapDiv">
+                    <div class="cart">
+                        <p id="cartHeading">CART</p>
+                        <div class="cartItems" id="item1">
+                            <p class="text-left cartSubHeading">CAT SPIT BALL OF HAIR <span class="cartqty" id="cartqty1"></span></p>
+                            <div class="button">
+                                <button class="btn btn-sm btn-danger" onclick="remove(1)">Remove</button>
+                            </div>
+                        </div>
+                        <div class="cartItems" id="item2">
+                            <p class="text-left cartSubHeading">MIX CD OF BAD SONGS <span class="cartqty" id="cartqty2"></span></p>
+                            <div class="button">
+                                <button class="btn btn-sm btn-danger" onclick="remove(2)">Remove</button>
+                            </div>
+                        </div>
+                        <div class="cartItems" id="item3">
+                            <p class="text-left cartSubHeading">CHEWED Chicken Songs <span class="cartqty" id="cartqty3"></span></p>
+                            <div class="button">
+                                <button class="btn btn-sm btn-danger" onclick="remove(3)">Remove</button>
+                            </div>
+                        </div>
+                        <div class="cartItems" id="item4">
+                            <p class="text-left cartSubHeading">FAke One Ruppee Note <span class="cartqty" id="cartqty4"></span></p>
+                            <div class="button">
+                                <button class="btn btn-sm btn-danger" onclick="remove(4)">Remove</button>
+                            </div>
+                        </div>
+                        <div class="cartItems" id="item5">
+                            <p class="text-left cartSubHeading">Salman Khan Movies DVD <span class="cartqty" id="cartqty5"></span></p>
+                            <div class="button">
+                                <button class="btn btn-sm btn-danger" onclick="remove(5)">Remove</button>
+                            </div>
+                        </div>
+                        <button class="btn btn-sm btn-danger" id="removebtn" onclick="removeall()">RemoveAll</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../JS/Test.js"></script>
+</body>
+
+</html>
