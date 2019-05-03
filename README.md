@@ -9,3 +9,6 @@ A POC done on Vanilla Javascript.!
 ### Installing
 * Just clone the project in your local directory.
 * Open the HTML file.
+
+SnapShot--
+![](/Images/Crapbag.png)
